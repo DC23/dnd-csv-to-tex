@@ -145,13 +145,13 @@ if __name__ == "__main__":
         "-d",
         "--dont-escape-content",
         action="store_true",
-        help="Don't escape LaTeX symbols in the row content. Allows LaTeX markup in the text file",
+        help="Don't escape LaTeX symbols in the row content. Allows LaTeX markup in the input file",
     )
     arg_parser.add_argument("-i", "--input", type=str, help="Input file")
     arg_parser.add_argument("-o", "--output", type=str, help="Output file")
     arg_parser.add_argument("-p", "--label-prefix", type=str, default="", help="Label prefix")
     arg_parser.add_argument(
-        "-l", "--delimiter", type=str, default="|", help="Input file delimiter"
+        "-l", "--delimiter", type=str, default="|", help="Input file delimiter. Default is the pipe symbol |"
     )
     arg_parser.add_argument(
         "-x",
