@@ -28,6 +28,7 @@ all: example.pdf preview
 
 # Install the script as an executable in ~/.local/bin
 install: text_to_tex.py
+	echo Installing to ~/.local/bin/
 	cp ./text_to_tex.py ~/.local/bin/
 	chmod 744 ~/.local/bin/text_to_tex.py
 
