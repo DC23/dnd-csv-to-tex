@@ -44,8 +44,8 @@ can be found in `header.tex`.
 
 ## Input File Format
 
-See `example.csv` for a full example of a pipe-separated input file, and
-`example.tex` for the output from that file.
+See the sample files in `csv/` for input file examples, and
+`example.tex` for a minimal example of using the generated tex files to create a document.
 
 ### Embedded Options
 
