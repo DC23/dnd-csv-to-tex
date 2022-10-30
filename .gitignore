@@ -1,0 +1,12 @@
+# Default input and output directories
+tex/
+raw/
+text/
+
+# latex test files
+*.pdf
+*.aux
+*.log
+*.out
+
+.vscode/
