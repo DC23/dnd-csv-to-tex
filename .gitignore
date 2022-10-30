@@ -1,6 +1,5 @@
 # Default input and output directories
 tex/
-csv/
 
 # latex test files
 *.aux
