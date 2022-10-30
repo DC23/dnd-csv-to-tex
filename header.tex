@@ -1,0 +1,47 @@
+\usepackage[english]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage[singlelinecheck=false]{caption}
+\usepackage{listings}
+\usepackage{shortvrb}
+\usepackage{stfloats}
+\usepackage{hyperref}
+\usepackage{nameref}
+\usepackage{multicol}
+\usepackage[detect-all]{siunitx}
+\usepackage[svgnames]{xcolor}
+\usepackage{graphicx}
+\usepackage[T1]{fontenc} % Output font encoding for international characters
+\usepackage{tocloft}
+
+% TOC spacing
+% \renewcommand*{\cftsecdotsep}{4.5}  % use dots in the section entries
+% \renewcommand*{\cftsecnumwidth}{3em} % increase space for Roman numerals
+\renewcommand*{\cftsubsecindent}{1em} % reduce indent of subsection titles
+\renewcommand*{\cftsubsubsecindent}{2em} % reduce indent of subsubsection titles
+
+\hypersetup{
+    pdfborderstyle={/S/U/W 1}, % underline links instead of boxes
+    linkbordercolor=brown,       % color of internal links
+    citebordercolor=green,     % color of links to bibliography
+    filebordercolor=magenta,   % color of file links
+    urlbordercolor=brown        % color of external links
+}
+
+\captionsetup[table]{labelformat=empty,font={sf,sc,bf,},skip=0pt}
+\MakeShortVerb{|}
+
+% 1 = sections
+% 2 = subsections
+% 3 = subsubsections
+\setcounter{tocdepth}{3}
+
+\lstset{%
+  basicstyle=\ttfamily,
+  language=[LaTeX]{TeX},
+  breaklines=true,
+}
+
+\sisetup{range-phrase = \text{ to }}
+
+\newcommand\tableheading[1]{\subsubsection{#1}}
+\newcommand\columnheader[1]{\textbf{\emph{#1}}}

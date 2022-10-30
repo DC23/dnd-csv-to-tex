@@ -31,6 +31,17 @@ optional arguments:
                         Do not apply formatting to the first content row.
 ```
 
+## LaTeX Macros
+
+You should define these two macros in your LaTeX file. They allow you to control
+the appearance of the table headings and column headings. A minimal working example
+can be found in `header.tex`.
+
+```tex
+\newcommand\tableheading[1]{\subsubsection{#1}}
+\newcommand\columnheader[1]{\textbf{\emph{#1}}}
+```
+
 ## Input File Format
 
 See `example.csv` for a full example of a pipe-separated input file, and
