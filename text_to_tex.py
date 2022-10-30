@@ -157,7 +157,7 @@ if __name__ == "__main__":
         "-x",
         "--no-name",
         action="store_true",
-        help="Do not emit a table name at all.",
+        help="Do not emit a table name/header/section at all.",
     )
     arg_parser.add_argument(
         "-n",
@@ -180,7 +180,7 @@ if __name__ == "__main__":
     args = arg_parser.parse_args()
 
     if args.version:
-        print(f"{__file__} 1.4.2")
+        print(f"{__file__} 1.4.3")
         exit()
 
     if not args.input or not args.output:

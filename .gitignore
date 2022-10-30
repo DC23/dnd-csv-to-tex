@@ -1,6 +1,3 @@
-# Default input and output directories
-tex/
-
 # latex test files
 *.aux
 *.lof

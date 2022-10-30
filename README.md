@@ -23,7 +23,7 @@ optional arguments:
                         Label prefix
   -l DELIMITER, --delimiter DELIMITER
                         Input file delimiter. Default is the pipe symbol |
-  -x, --no-name         Do not emit a table name at all.
+  -x, --no-name         Do not emit a table name/header/section at all.
   -n, --name-as-header  Embed the table name as a header in the table rather
                         than using the \tableheading macro
   -v, --version         Print the version number and exit.
