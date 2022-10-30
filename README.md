@@ -64,4 +64,5 @@ embedded in the first line of the CSV file. Currently supported options are:
 
 `example.tex` and the input files in `csv/` can be compiled into an example PDF
 with the `make example` command. Here's the first page:
+
 ![Preview image of the first page from the PDF](./preview.jpg)

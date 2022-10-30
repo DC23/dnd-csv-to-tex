@@ -3,9 +3,11 @@ tex/
 csv/
 
 # latex test files
-*.pdf
 *.aux
+*.lof
 *.log
+*.lot
 *.out
-
+*.toc
 .vscode/
+tex/
