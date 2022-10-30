@@ -33,14 +33,24 @@ optional arguments:
 
 ## Input File Format
 
-See `example.csv` for a full example of a pipe-separated input file, and `example.tex` for the output from that file.
+See `example.csv` for a full example of a pipe-separated input file, and
+`example.tex` for the output from that file.
 
 ### Embedded Options
 
-In addition to command-line arguments, the script also supports per-file options embedded in the first line of the CSV file. Currently supported options are:
+In addition to command-line arguments, the script also supports per-file options
+embedded in the first line of the CSV file. Currently supported options are:
 
 * **no-name** As per the script argument.
 * **name-as-header** As per the script argument.
 * **no-format-first-row** As per the script argument.
-* **no-default-numbers** Don't output default numbers for table entries that are missing a number.
-* **emit-label** Emit a LaTeX label for the table. The label name is the value supplied to LABEL_PREFIX combined with the table name.
+* **no-default-numbers** Don't output default numbers for table entries that are
+  missing a number.
+* **emit-label** Emit a LaTeX label for the table. The label name is the value
+  supplied to LABEL_PREFIX combined with the table name.
+
+## Examples
+
+`example.tex` and the input files in `csv/` can be compiled into an example PDF
+with the `make example` command. Here's the first page:
+![Preview image of the first page from the PDF](./preview.jpg)
