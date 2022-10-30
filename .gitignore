@@ -1,7 +1,6 @@
 # Default input and output directories
 tex/
-raw/
-text/
+csv/
 
 # latex test files
 *.pdf
