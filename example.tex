@@ -4,6 +4,11 @@
 
 \section{Example Tables}
 
+\subsection{How Great?}
+This table uses embedded \LaTeX\ markup in the CSV. To do this, call \emph{text\_to\_tex.py} with
+the \emph{--dont-escape-content} argument.
+\input{tex/poll}
+
 \subsection{Ascending \& Descending Armour Class}\label{gm:ac_conversion}
 Note that \emph{D\&D B/X} and related retro-clones such as \emph{Labyrinth
 Lord}, and \emph{Scarlet Heroes} are base 9 descending systems. \emph{Advanced
@@ -11,5 +16,36 @@ D\&D 1e} is base 10 descending.
 
 % This is the tex file generated from the csv
 \input{tex/ascending_descending_conversion}
+
+\subsection{Simulating d64 from 2d8}
+\input{tex/d64}
+
+\vfill\pagebreak
+
+\subsection{Overloaded Encounter Die}\label{ex:random_encounters}
+Based on the
+\href{https://www.necropraxis.com/2014/02/03/overloading-the-encounter-die/}{Necropraxis
+\emph{Overloading the Encounter Die}} blog post. Each $n$ turns, roll a d6 against the
+encounter table.
+
+\begin{DndComment}{}
+Note that this table uses the \emph{tableheading} macro.
+\end{DndComment}
+
+\input{tex/dungeon_encounter_dice}
+
+\subsection{Travel Distances}\label{ex:travel_distances}
+Example showing how to add table footnote text.
+
+Based on the \emph{D\&D 5e Travel Pace} rules, this gives hexes per day traveled
+for both three and six mile hexes. Note that difficult terrain will reduce these
+distances, while traveling on good roads may increase them.
+\input{tex/hex_travel_distances}
+\begin{footnotesize}
+\-\vspace{-3mm}\linebreak
+\-\hspace{0mm}$a$ Miles per hour\hspace{5mm}$b$ Miles per day\hspace{5mm}$c$ Hexes per day
+\end{footnotesize}
+
+\vfill
 
 \end{document}

@@ -1,0 +1,8 @@
+Dungeon Encounter | lX | emit-label
+Roll | Action
+1 |	\textbf{Encounter or trap!}
+2 |	\textbf{Perception.} There is something to see, hear, smell, feel, or taste.
+3 |	\textbf{Unusual Event.} Roll 1d6 again.  \begin{itemize} \item 1 to 2 Unexpected or weird non-combat encounter \item 3 to 6 Something context-specific\end{itemize}
+4 |	\textbf{Exhaustion.} Rest or take penalties.
+5 |	\textbf{Torch or lantern} takes 1 durability.
+6+| \textbf{Nothing.}
